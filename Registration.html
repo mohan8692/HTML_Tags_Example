@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.abc{
+				color:red;
+			}
+			#mobile{
+				color:red;
+			}
+			ul{
+				list-style:none;
+			}
+			//li:first-child{
+				color:red;
+			}
+			//li:last-child{
+				color:blue;
+			}
+			//li:nth-child(2){
+				color:yellow;
+			}
+			li:nth-child(even){
+				color:red;
+			}
+			li:nth-child(odd){
+				color:yellow;
+			}
+		</style>
+		<title>Registration From</title>
+		<link rel="icon" href="iocn/apple.png"></link>
+		<link rel="stylesheet" href="style.css"></link>
+	</head>
+	<body>
+		<div class="body_bg_color" style="background-color:blue;border:3px dotted pink	;">
+			<!--<h3>Registration Form</h3>-->  <!-- comments off html code-->
+			<div>
+				<label style="color:red;">Username:</label>
+				<input type="text" placeholder="Enter username">
+			</div>
+			<br>
+			<div>
+				<label class="abc">password:</label>
+				<input type="password">
+			</div>
+			<br>
+			<div>
+				<label>Email:</label>
+				<input type="email">
+			</div>
+			<br>
+			<div>
+				<label id="mobile">mobile:</label>
+				<input type="number">
+			</div>
+			<br>
+			<div>
+				<label>Gender:</label>
+				<input type="radio" name="gender"><label>Male</label>
+				<input type="radio" name="gender"><label>Female</label>
+				<input type="radio" name="gender"><label>Others</label>
+			</div>
+			<br>
+			<div>
+				<label>Hobbies:</label>
+				<input type="checkbox"><label>sports</label>
+				<input type="checkbox"><label>study</label>
+				<input type="checkbox"><label>Music</label>
+			</div>
+			<br>
+			<div>
+				<label>Adress:</label>
+			</div>
+				<textarea></textarea>
+			<br>
+			<div>
+				<label>Country:</label>
+				<select>
+					<option>India</option>
+					<option>Usa</option>
+					<option>China</option>
+					<option>Japan</option>
+					<option>Malaysia</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<button>Save</button>
+				<button>Cancel</button>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<li>1111</li>
+				<li>222</li>
+				<li>3333</li>
+				<li>4444</li>
+			</ul>
+		</div>
+	</body>
+</html>
