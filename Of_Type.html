@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		#child p:first-of-type{
+			background-color:yellow;
+		}
+		#child p:last-of-type{
+			background-color:green;
+		}
+		ul{
+			list-style:none;
+		}
+		#unorder li:first-child{
+			background-color:orange;
+		}
+		#unorder li:last-child{
+			background-color:blue;
+		}
+		.class1,.class2{
+			background-color:yellow;
+		}
+		#childselector>p{
+			background-color:pink;
+		}
+	</style>
+		<title>Property of first and last of type</title>
+		<link rel="icon" href="iocn\apple.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="child">
+			<div>Mohan</div>
+			<div>Naveen</div>
+			<p>kishore</p>
+			<div>jagadish</div>
+			<p>karthik</p>
+			<div>Srinu</div>
+		</div>
+		<hr>
+		<ul id="unorder">
+			<li>1111</li>
+			<li>2222</li>
+			<li>3333</li>
+			<li>4444</li>
+		</ul>
+		<ul>
+			<li class="class1">5555</li>
+			<li>6666</li>
+			<li class="class2">7777</li>
+			<li>8888</li>
+		</ul>
+		<hr>
+		<div id="childselector">
+			<p>mohan</p>
+			<p>naveen</p>
+			<div>
+				<p>mahesh</p>
+			</div>
+			<p>vinod</p>
+		</div>
+	</body>
+</html>
