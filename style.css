@@ -3,4 +3,10 @@
 	text-align:center;
 	border:2px solid red;
 }
+[type="text"]{
+	background-color:yellow;
+}
+[data-name="text"]{
+	background-color:green;
+}
 

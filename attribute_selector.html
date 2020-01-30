@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<style>
+			*{
+				font-size:20px;
+			}
+		</style>-->
+		<style>
+			#mohan{
+				background-color:red;
+			}
+			.mohan{
+				background-color:green;
+			}
+			[name="mohan"]{
+				background-color:blue;
+			}
+			h1{
+				background-color:orange;
+			}
+			table thead tr{
+				background-color:green;
+			}
+			table tbody tr:nth-child(even){
+				background-color:red;
+			}
+			table tbody tr:nth-child(odd){
+				background-color:blue;
+			}
+		</style>
+		<title>Attribute Selector</title>
+		<link rel="icon" href="iocn/apple.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h3>Attributr selector example</h3>
+		<div>
+			<input type="text">
+		</div>
+		<div>
+			<input type="radio">
+		</div>
+		<div>
+			<input type="checkbox">
+		</div>
+		<div>
+			<input type="text">
+		</div>
+		<div>
+			<input type="text">
+		</div>
+		<hr>
+		<h3>User defined attributes</h3>
+		<div data-name="text">Mohan</div>
+		<p data-name="abc">Naveen</p>
+		<div data-name="text">Mahesh</div>
+		<div data-name="abc">Ravi</div>
+		<hr>
+		<h1 id="mohan" class="mohan" name="mohan">Mohan Madaparthi</h1>
+		<hr>
+		<h3>Table Example</h3>
+		<table border="2" cellpadding="20px" cellspacing="20px;">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>ID</th>
+					<th>Image</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mohan</td>
+					<td>Mohan</td>
+					<td>Mohan</td>
+				</tr>
+				<tr>
+					<td>Kiran</td>
+					<td>MAhi</td>
+					<td>Fine</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
