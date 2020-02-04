@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				margin:0px;
+			}
+			button{
+				color:red;
+				background-color:yellow;
+			}
+			#head_element{
+				height:70px;
+				background-color:#bfff00;
+				display:flex;
+				justify-content:space-between;
+				align-items:center;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			#main_element{
+				display:flex;
+			}
+			#main_element_one{
+				width:15%;
+				height:555px;
+				background-color:#00ffff;
+				display:flex;
+				flex-direction:column;
+			}
+			#main_element_one div{
+				flex:1;
+				border-bottom:1px solid black;
+				text-align:center;
+				padding-top:45px;
+				padding-bottom:45px;
+				color:#ff4000;
+			}
+			#main_body_two{
+				width:85%;
+				height:495px;
+				background-color:#ffbf00;
+			}
+			#main_element_two{
+				padding:30px;
+			}
+			#main_element_two > div{
+				display:flex;
+				flex-direction:row;
+				height:120px;
+				padding:10px;
+			}
+			#main_element_two_1 div,#main_element_two_2 div,#main_element_two_3 div{
+				border:1px solid black;
+				width:50%;
+				margin-right:10px;
+				text-align:center;
+				padding-top:45px;
+				padding-bottom:45px;
+			}
+			#main_element_two_1 div:first-child{
+				background-color:#00ffff;
+			}
+			#main_element_two_1 div:last-child{
+				background-color:#0080ff;
+			}
+			#main_element_two_2 div:nth-child(1){
+				background-color:#ff8000;
+			}
+			#main_element_two_2 div:nth-child(2){
+				background-color:#ff0040;
+			}
+			#main_element_two_2 div:nth-child(3){
+				background-color:#0000ff;
+			}
+			#main_element_two_3 div:nth-child(1){
+				background-color:#808080;
+			}
+			#main_element_two_3 div:nth-child(2){
+				background-color:#bf4040;
+			}
+			#main_element_two_3 div:nth-child(3){
+				background-color:#f90606;
+			}
+			#main_element_two_3 div:nth-child(4){
+				background-color:#ffff00;
+			}
+			#main_element_footer{
+				background-color:#990000;
+				height:75px;
+			}
+		</style>
+		<title>12th class task</title>
+		<link rel="icon" href="iocn/country.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div>
+			<div id="head_element">
+				<img alt="logo" src="images/DSNY_logo_2016.jpg" width="50px" height="50px">
+				<button height="25px">logout</button>
+			</div>
+			<div id="main_element">
+				<div id="main_element_one">
+					<div>VBM</div>
+					<div>HOME</div>
+					<div>SERVICE</div>
+					<div>ABOUT</div>
+					<div>CONTACT</div>
+				</div>
+				<div id="main_body_two">
+					<div id="main_element_two">
+						<div id="main_element_two_1">
+							<div>1111</div>
+							<div>22222</div>
+						</div>
+						<div id="main_element_two_2">
+							<div>1111</div>
+							<div>22222</div>
+							<div>33333</div>
+						</div>
+						<div id="main_element_two_3">
+							<div>1111</div>
+							<div>22222</div>
+							<div>33333</div>
+							<div>44444</div>
+						</div>
+					</div>
+					<div id="main_element_footer"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

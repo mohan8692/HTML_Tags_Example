@@ -3,10 +3,33 @@
 	text-align:center;
 	border:2px solid red;
 }
-[type="text"]{
-	background-color:yellow;
-}
 [data-name="text"]{
 	background-color:green;
 }
+#bg_image{
+	position:relative;
+	background:url(images/road.png);
+	height:100vh;
+	background-size:cover;
+	background-position:0 0;
+	background-repeat:repeat-x;
+	animation:animate 15s linear infinate;
+}
+
+@Keyframes animate
+{
+	from{
+		background-position:0 0;
+	}
+	to{
+		background-position:100% 0;
+	}
+}
+#flex_main div{
+	display:flex;
+}
+#flex_main input{
+	flex:1;
+}
+
 
