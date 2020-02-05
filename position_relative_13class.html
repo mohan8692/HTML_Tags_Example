@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#main_div{
+				display:flex;
+				height:500px;
+				width:100%;
+				background-color:green;
+			}
+			#main_div div{
+				margin:auto;
+			}
+			#main_div div:first-child{
+				width:30%;
+				height:400px;
+				background-color:blue;
+				position:relative;
+				left:360px;
+			}
+			#main_div div:last-child{
+				width:5%;
+				height:100px;
+				background-color:red;
+				position:relative;
+				right:615px;
+			}
+			#main_div div:nth-child(2){
+				width:20%;
+				height:300px;
+				background-color:yellow;
+				position:relative;
+				right:85px;
+			}
+			#main_div div:nth-child(3){
+				width:10%;
+				height:200px;
+				background-color:pink;
+				position:relative;
+				right:400px;
+			}
+			#main_div_one{
+				height:500px;
+				width:100%;
+				background-color:black;
+				display:flex;
+				position:relative;
+				background:url(images/gandhi.jpg);
+				background-size:cover;
+			}
+			#main_div_one div{
+				margin:auto;
+			}
+			#main_div_one div:first-child{
+				width:30%;
+				height:100px;
+				background-color:#ff8000;
+				position:absolute;
+				left:450px;
+				top:100px;
+			}
+			#main_div_one div:last-child{
+				width:30%;
+				height:100px;
+				background-color:green;
+				position:absolute;
+				left:450px;
+				top:300px;
+			}
+			#main_div_one div:nth-child(2){
+				width:30%;
+				height:100px;
+				background-color:white;
+				position:absolute;
+				left:450px;
+				top:200px;
+			}
+			img{
+				position:absolute;
+				left:620px;
+				bottom:-235px;
+			}
+			#img_div{
+			`	position:relative;
+			}
+		</style>
+		<title>Position relative and absolute </title>
+		<meta charset="UTF-8">
+		<meta name="viewposrt" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="iocn/apple.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="main_div">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<br>
+		<div id="img_div">
+			<div id="main_div_one">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<img alt="ashoka_chakaram" src="images/ashoka1.jpg" width="70px" height="70px">
+		</div>
+	</body>
+</html>

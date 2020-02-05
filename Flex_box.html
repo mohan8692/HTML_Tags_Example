@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<style>
+		#flex_main div{
+			display:flex;
+		}
+		#flex_main input{
+			flex:1;
+		}
+		#flex_main_one{
+			display:flex;
+		}
+		#flex_main_one div:first-child{
+			flex:1;
+			order:1;
+		}
+		#flex_main_one div:last-child{
+			flex:1;
+			order:2;
+		}
+		#flex_main_one div:nth-child(2){
+			flex:2;
+			order:3;
+		}
+		#flex_main_two{
+			display:flex;
+			width:100%;
+			justify-content:space-between;
+		}
+		#flex_main_two div{
+			width:30%;
+			height:300px;
+		}
+		#flex_main_two div:first-child{
+			background-color:green;
+		}
+		#flex_main_two div:last-child{
+			background-color:red;
+		}
+		#flex_main_two div:nth-child(2){
+			background-color:yellow;
+		}
+		</style>
 		<title>Flex box practice</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scaling=1.0">
@@ -20,6 +61,25 @@
 			<div>
 				<label>password:</label><input type="text">
 			</div>
+		</div>
+		<div id="flex_main_one">
+			<div>
+				<h3>content of data</h3>
+				the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team
+			</div>
+			<div>
+				<h3>content of data</h3>
+				the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team
+			</div>
+			<div>
+				<h3>content of data</h3>
+				the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team the amaging talent of indian cricket team
+			</div>
+		</div>
+		<div id="flex_main_two">
+			<div></div>
+			<div></div>
+			<div></div>
 		</div>
 	</body>
 </html>
