@@ -27,10 +27,10 @@
 				background-repeat:no-repeat;
 				background-size:100% 100%;
 			}
-			#main_container div{
+			#main_container>div{
 				margin:auto;
 			}
-			#main_container div:first-child{
+			#main_container>div:first-child{
 				width:15%;
 				height:450px;
 				background-color:#40ff00;
@@ -38,55 +38,91 @@
 				flex-direction:column;
 				padding:2px;
 			}
-			#main_container div:last-child{
+			#main_container>div:last-child{
 				width:80%;
 				height:450px;
 				background-color:#0080ff;
 			}
-			#main_container div:first-child img{
+			#main_container>div:first-child img{
 				flex:1;
 				margin:auto;
 				margin-bottom:2px;
 				border-radius:15px;
 			}
-			#main_container div:first-child img:last-child{
+			#main_container>div:first-child img:last-child{
 				margin-bottom:0px;
 			}
-			#main_container div:first-child img:nth-child(even){
+			#main_container>div:first-child img:nth-child(even){
 				margin-left:0px;
 			}
-			#main_container div:first-child img:nth-child(odd){
+			#main_container>div:first-child img:nth-child(odd){
 				margin-right:0px;
 			}
-			#main_container div:last-child div{
-				height:50px;
+			#main_container_div > div{
+				height:45px;
 			}
-			#main_container div:last-child div:first-child{
+			#main_container_div>div:first-child{
 				background-color:#ffcccc;
 			}
-			#main_container div:last-child div:nth-child(2){
+			#main_container_div >div:nth-child(2){
 				background-color:#ffb3b3;
 			}
-			#main_container div:last-child div:nth-child(3){
+			#main_container_div>div:nth-child(3){
 				background-color:#ff9999;
 			}
-			#main_container div:last-child div:nth-child(4){
+			#main_container_div >div:nth-child(4){
 				background-color:#ff8080;
 			}
-			#main_container div:last-child div:nth-child(5){
+			#main_container_div>div:nth-child(5){
 				background-color:#ff6666;
 			}
-			#main_container div:last-child div:nth-child(6){
+			#main_container_div>div:nth-child(6){
 				background-color:#ff3333;
 			}
-			#main_container div:last-child div:nth-child(7){
+			#main_container_div>div:nth-child(7){
 				background-color:#e60000;
 			}
-			#main_container div:last-child div:nth-child(8){
+			#main_container_div>div:nth-child(8){
 				background-color:#cc0000;
 			}
-			#main_container div:last-child div:last-child{
+			#main_container_div>div:nth-child(9){
 				background-color:#b30000;
+			}
+			#main_container_div>div:last-child{
+				background-color:#800000;
+			}
+			#main_container_div img{
+				border-radius:40px;
+			}
+			#div_ten img{
+				margin-left:1%;
+			}
+			#div_nine img{
+				margin-left:10%;
+			}
+			#div_eight img{
+				margin-left:20%;
+			}
+			#div_seven img{
+				margin-left:30%;
+			}
+			#div_six img{
+				margin-left:40%;
+			}
+			#div_five img{
+				margin-left:50%;
+			}
+			#div_four img{
+				margin-left:60%;
+			}
+			#div_three img{
+				margin-left:70%;
+			}
+			#div_two img{
+				margin-left:80%;
+			}
+			#div_one img{
+				margin-left:90%;
 			}
 		</style>
 		<title>14th class task</title>
@@ -117,16 +153,37 @@
 				<img alt="image" src="images/audi.jpg" width="100px" height="50px">
 				<img alt="image" src="images/bmw.jpg" width="100px" height="50px">
 			</div>
-			<div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
+			<div id="main_container_div">
+				<div id="div_one">
+					<img alt="image" src="images/bmw.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_two">
+					<img alt="image" src="images/audi.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_three">
+					<img alt="image" src="images/nature.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_four">
+					<img alt="image" src="images/audi.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_five">
+					<img alt="image" src="images/bmw.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_six">
+					<img alt="image" src="images/audi.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_seven">
+					<img alt="image" src="images/nature.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_eight">
+					<img alt="image" src="images/bmw.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_nine">
+					<img alt="image" src="images/audi.jpg" width="100px" height="45px">
+				</div>
+				<div id="div_ten">
+					<img alt="image" src="images/nature.jpg" width="100px" height="45px">
+				</div>
 			</div>
 		</div>
 	</body>
