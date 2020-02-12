@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				margin:0px;
+			}
+			#main_container{
+				width:100%;
+				height:550px;
+				background-image:url("images/cricket.jpg");
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+				border:2px solid black;
+				position:relative;
+			}
+			#animation_ball{
+				width:100px;
+				height:100px;
+				background-color:red;
+				border-radius:50%;
+				border:1px solid black;
+				animation-name:cricket_ball;
+				position:absolute;
+				animation-duration:10s;
+				animation-delay:0s;
+				animation-iteration-count:;
+				animation-timing-function:linear;
+				animation-direction:;
+				top:450px;
+				left:75%;
+			}
+			@keyframes cricket_ball{
+				0%{
+					top:0px;
+					left:0px;
+				}
+				25%{
+					top:450px;
+					left:25%;
+					transform:rotateY(90deg);
+				}
+				50%{
+					top:0px;
+					left:50%;
+					transform:rotateY(180deg);
+				}
+				75%{
+					top:450px;
+					left:75%;
+					transform:rotateY(270deg);
+				}
+				100%{
+				}
+			}
+		</style>
+		<title>Animations example</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="iocn/apple.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="main_container">
+			<div id="animation_ball"></div>
+		</div>
+	</body>
+</html>

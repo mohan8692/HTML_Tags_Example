@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#main_container{
+				height:350px;
+				width:100%;
+				background-color:green;
+			}
+			#main_container div{
+				height:100px;
+				border:1px solid black;
+				border-radius:10px;
+				width:80%;
+				margin-top:10px;
+				margin-left:10%;
+			}
+			#main_container div:first-child{
+				background-color:yellow;
+			}
+			#main_container div:last-child{
+				background-color:red;
+			}
+			#main_container div:nth-child(2){
+				background-color:blue;
+			}
+			@media screen and (min-width:500px){
+				#main_container{
+					display:flex;
+					height:500px;
+				}
+				#main_container div{
+					height:300px;
+					width:30%;
+					margin:auto;
+				}
+			}
+		</style>
+		<title>media query example</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="iocn/apple.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="main_container">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</body>
+</html>
