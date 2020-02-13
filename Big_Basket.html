@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+ <html>
+	<head>
+		<style>
+			header{
+				height:150px;
+			}
+			.font-size{
+				font-size:12px;
+			}
+			.bg-color{
+				background-color:#F8F8F8;
+			}
+			.font-size1{
+				font-size:25px;
+			}
+			.bg_white{
+				background-color:white;
+			}
+			.pad_60{
+				padding:60px;
+			}
+			.p-relative{
+				position:relative;
+				bottom:10px;
+			}
+			#moving{
+				left:30px;
+				top:144px;
+			}
+		</style>
+		<title>Big Basket Example</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="author" content="Mohan Madaparthi">
+		<meta name="description" content="home based groosarys">
+		<meta name="keywords" content="home,family,grroosary">
+		<link rel="icon" href="bb/bb_logo.PNG">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	</head>
+	<body>
+		<header class="container">
+			<div class="d-flex justify-content-end w-100 mt-1">
+				<img src="bootstrap/b_icon/icons/phone.svg" alt="" width="25" height="25">
+				<div class="mr-2">1860123100</div>
+				<img src="bootstrap/b_icon/icons/arrow-down.svg" alt="" width="25" height="25">
+				<div class="mr-2">4006002,Mumbai</div>
+				<img src="bootstrap/b_icon/icons/Person.svg" alt="" width="25" height="25">
+				<div class="mr-2 border-right pr-2 border-dark">Login</div>
+				<div class="mr-2">Sign Up</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<img alt="bb_image" src="bb/bb_name.PNG">
+				</div>
+				<div class="col-md-10">
+					<div class="row mt-4">
+						<div class="col-md-8 border d-flex justify-content-between align-items-center">
+							<div>Search for products</diV>
+							<img  class="bg-success" src="bootstrap/b_icon/icons/sun.svg" alt="" width="25" height="25">
+						</div>
+						<div class="col-md-2">
+							<input class="w-100 bg-success mt-1" type="button">
+						</div>
+						<div class="col-md-2">
+							<div class="w-100 bg-secondary row">
+								<div class="col-sm-3">
+									<img  class="bg-danger mt-1" src="bootstrap/b_icon/icons/window.svg" alt="" width="25" height="25">
+								</div>
+								<div class="col-sm-9 font-size">My basket 0items</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 bg-success p-1 font text-white"><b>SHOP BY CATAGORY</b></div>
+				<div class="col-md-10 border p-1 d-flex">
+					<img src="bootstrap/b_icon/icons/window.svg" alt="" width="25" height="25">
+					<div>OFFERS</div>
+				</div>
+			</div>
+		</header>
+		<div class="container-fluid">
+			<img src="images/banner.PNG" alt="" width="100%">
+		</div>
+		<div class="container">
+			<div class="row bg-color mt-3 p-2">
+				<div class="col-md-4 font-size1"><b>Why choose bigbasket?</b></div>
+				<div class="col-md-2">
+					<div>Quality</div>
+				</div>
+				<div class="col-md-2">
+					<div>On time guarantee</div>
+				</div>
+				<div class="col-md-2">
+					<div>Free delevery</div>
+				</div>
+				<div class="col-md-2">
+					<div>Return policy</div>
+				</div>
+			</div>
+			<div class="row  mt-3 ">
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>Egg,Meet and Fish</b></div>
+				</div>
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>Home and Kitchen</b></div>
+				</div>
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>GoodDjet</b></div>
+				</div>
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>Beauty store</b></div>
+				</div>
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>Star</b></div>
+				</div>
+				<div class="col-md-2">
+					<div class="bg-primary text-center p-2"><b>Deals Of the week</b></div>
+				</div>
+			</div>
+			<div class="border p-2 mt-3">
+				<img src="images/banner2.PNG" alt="" width="100%">
+			</div>
+			<div class="text-center font-size1 mt-4">Bank Offers</div>
+			<hr>
+			<div class="row mt-3">
+				<div class="col-sm-3">
+					<div class="p-2 bg-success">
+						<div class="font-size1 bg_white text-center"><b>ICICI Bnak</b></div>
+						<div class="text-center mt-2"><b>10% Instant Discount</b></div>
+						<div class="text-center">Shop for $1500+</div>
+						<div class="bg_white text-center w-75 ml-4">Code:ICICB</div>
+						<div class="text-center"> valid only credit cards</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="p-2 bg-success">
+						<div class="font-size1 bg_white text-center"><b>ICICI Bnak</b></div>
+						<div class="text-center mt-2"><b>10% Instant Discount</b></div>
+						<div class="text-center">Shop for $1500+</div>
+						<div class="bg_white text-center w-75 ml-4">Code:ICICB</div>
+						<div class="text-center"> valid only credit cards</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="p-2 bg-success">
+						<div class="font-size1 bg_white text-center"><b>ICICI Bnak</b></div>
+						<div class="text-center mt-2"><b>10% Instant Discount</b></div>
+						<div class="text-center">Shop for $1500+</div>
+						<div class="bg_white text-center w-75 ml-4">Code:ICICB</div>
+						<div class="text-center"> valid only credit cards</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="pad_60 bg-success text-center font-size1"><b>View All</b></div>
+				</div>
+			</div>
+			<div class="text-center font-size1 mt-4">Pretty Big Sale</div>
+			<hr>
+			<div class="row mt-2">
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/pretty.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Matte makeup</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/pretty.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Matte makeup</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/pretty.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Matte makeup</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/pretty.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Matte makeup</b></div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-md-3">
+					<div class="">
+						<img  class="border" src="images/lips.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>All about lips</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/lips.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>All about lips</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/lips.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>All about lips</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border" src="images/lips.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>All about lips</b></div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center font-size1 mt-4">Must have this season</div>
+			<hr>
+			<div class="row mt-4">
+				<div class="col-md-3">
+					<div class="">
+						<img class="border border-success" src="images/1.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Sesonal fruits</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border border-success" src="images/2.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Bevereges</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border border-success" src="images/3.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>chacolates</b></div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="">
+						<img class="border border-success" src="images/4.PNG" alt="" width="100%	">
+						<div class="p-1 bg-color text-center w-75 m-auto p-relative border border-info"><b>Skin and lip care</b></div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center font-size1 mt-4">Fruits and Vegetables</div>
+				<div class="row mt-2">
+					<div class="col-md-6">
+						<div class="border p-3">
+							<img class="border border-danger" alt="" src="images/5.PNG" width="100%">
+							<div class="text-center border border-info  bg-color p-3 w-75 m-auto p-relative"><b>Organic Store</b></div>
+						</div>
+					</div>
+					<div class="col-md-6 border">
+						<div class="row mt-1">
+							<div class="col-md-6">
+								<div class="border p-1">
+									<img class="border border-danger" alt="" src="images/6.PNG" width="100%">
+									<div class="text-center border border-info  bg-color p-1 w-75 m-auto p-relative"><b>Fresh vegetable</b></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="border p-1">
+									<img class="border border-danger" alt="" src="images/7.PNG" width="100%">
+									<div class="text-center border border-info  bg-color p-1 w-75 m-auto p-relative"><b>Fresh Fruits</b></div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-1">
+							<div class="col-md-6">
+								<div class="border p-1">
+									<img class="border border-danger" alt="" src="images/8.PNG" width="100%">
+									<div class="text-center border border-info  bg-color p-1 w-75 m-auto p-relative"><b>Cuts and Sprouds</b></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="border p-1">
+									<img class="border border-danger" alt="" src="images/9.PNG" width="100%">
+									<div class="text-center border border-info bg-color p-1 w-75 m-auto p-relative"><b>Exotica</b></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
